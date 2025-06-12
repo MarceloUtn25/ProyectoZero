@@ -1,18 +1,68 @@
 .container{
+  
+}
+
+.pj{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 20% 80%;
-    width: 100vw;
-    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 800px;
+    height: 800px;
+    background-color: antiquewhite;
 }
-
-.titulo{
+.cabeza{
+    background-color: brown;
+    grid-column: 2/2;
     grid-row: 1/1;
-    grid-column: 2/3;
-    justify-content: center;
-
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
-.zero{
+.cara{
+    background-color: rgb(148, 109, 56);
+}
+.pelo{
+    background-color: black;
+}
+.cuerpo{
+    background-color: cadetblue;
+    grid-column: 2/2;
     grid-row: 2/2;
-    grid-column: 1/-1;
 }
+.pantalones{
+    background-color: black;
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+.brazoiz{
+    background-color:red;
+    grid-row: 2/2;
+    grid-column:1/1;
+    height: 50px;   
+}
+.brazoder{  
+    background-color: red;
+    grid-row: 2/2;
+    grid-column: 3/3;
+    height: 50px;
+}
+.piernaiz{
+    background-color: chartreuse;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    display: grid;
+    padding: 10px;
+}
+.piernader{
+    background-color: rgb(191, 0, 255);
+    grid-column: 2/2;
+    grid-row: 3/3;
+    width: 50%;
+    display: grid;
+    padding: 10px;
+}
+.botas{
+    background-color: blueviolet;
+    
+}
+
+
